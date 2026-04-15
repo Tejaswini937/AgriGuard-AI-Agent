@@ -1,3 +1,47 @@
+# 🌱 AgriGuard AI — Plant Disease Analyzer
+
+## 📌 Overview
+
+AgriGuard AI is an intelligent system that detects plant diseases using artificial intelligence. Farmers often struggle to identify diseases early, leading to crop loss and reduced productivity. Our solution provides instant disease detection along with treatment suggestions and weather-based insights.
+
+## 🎯 Problem Statement
+
+Farmers rely on manual inspection or experts to identify plant diseases, which is time-consuming and not always accessible. This leads to delayed treatment and crop damage.
+
+## 💡 Solution
+
+Our system allows users to upload plant images, which are analyzed using AI (Google Gemini). The system detects diseases and provides:
+
+* Disease name
+* Severity level
+* Chemical treatment
+* Organic solutions
+* Follow-up care
+
+It also integrates real-time weather data to improve decision-making.
+
+## ✨ Key Features
+
+* 🤖 AI-based plant disease detection
+* 🌦️ Real-time weather integration
+* 💊 Treatment recommendations
+* 🌿 Organic solutions
+* 🌍 Multi-language support
+
+## ⚙️ Technologies Used
+
+* Frontend: Next.js (React)
+* Backend: FastAPI (Python)
+* AI Model: Google Gemini
+* Weather API: OpenWeather API
+* Tools: Git, GitHub
+
+## 🔄 How It Works
+
+User uploads image → Backend processes → AI analyzes → Disease + treatment displayed on UI
+
+---
+
 # 🌿 PlantAI — Plant Disease Analyzer
 
 AI-powered plant disease detection using Google Gemini + Next.js + FastAPI.
